@@ -12,7 +12,10 @@
     "sequelize": "^6.17.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "name": "tech-blog",
   "description": "A tech blog that requires authorization to enter",
